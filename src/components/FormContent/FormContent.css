@@ -4,3 +4,10 @@
     justify-content: center;
     text-align: center;
   }
+
+  @media all and (max-width: 768px) {
+    .form-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }

@@ -1,22 +1,38 @@
 .menu{
     position: absolute;
-    top: -15px;
+    display: flex;
+    top: 0;
     width: 50%;
     left: 20%;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    width: 100%;
 }
 
-.link-list {
+.links-list {
+    display: flex;
     text-align: left;
-    margin-top: 0;
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
+@media all and (min-width: 540px) and (max-width: 768px) {
+    .menu {
+      left: 10%;
+    }
+  }
+
+  @media all and (max-width: 540px) {
+    .menu {
+      left: 0;
+    }
+
+    .links-list {
+        display: flex;
+        flex-direction: column;
+    }
+  }
