@@ -26,16 +26,13 @@ class ContactForm extends Component {
         let isEmailValid = emailValid;
         let isPasswordValid = passwordValid;
         // Validate phone
-        isPhoneValid = phone.match(/^((06)|(07))[0-9]{10,12}$/i);
-        console.log('isPhoneValid', isPhoneValid)
+        isPhoneValid = phone.match(/^(6|7)[0-9]{10,12}$/i);
         fieldValidationErrors.phone = isPhoneValid ? '' : ' is invalid';
         // validate email
         isEmailValid = email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-        console.log('isEmailValid', isEmailValid)
         fieldValidationErrors.email = isEmailValid ? '' : ' is invalid';
         // validate password
         isPasswordValid = password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/);
-        console.log('isPasswordValid', isPasswordValid)
         fieldValidationErrors.password = isPasswordValid ? '' : "More than 8 digits & at least: 1 number, 1 capital letter, 1 symbol and 1 low case letter";
 
         this.setState({
