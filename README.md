@@ -1,4 +1,4 @@
-You can navigate through the urls:
+User can navigate through the urls:
 /home
 /page2
 
