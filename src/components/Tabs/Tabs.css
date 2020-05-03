@@ -1,0 +1,38 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.tab-list {
+    text-align: right;
+    margin-top: 0;
+  }
+
+  .tab-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .tab-list-active {
+    background-color: transparent;
+    border-bottom: 3px solid red;
+  }
+
+  .tab-section {
+      display: flex;
+      width: 100%;
+  }
+
+  .tab-link {
+    color: #253642;
+  }

@@ -1,0 +1,13 @@
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0059ff;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 200px;
+    background-color: #f8faff;
+    overflow: hidden;
+  }
+  

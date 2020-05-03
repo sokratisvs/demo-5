@@ -1,0 +1,122 @@
+.tiles-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin-top: 100px;
+  }
+
+  .tile {
+    display: block;
+    height: auto;
+    font-size: 14px;
+  }
+
+  .tile-container {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+  }
+
+  .tile-container:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .title {
+    color: #071e57;
+    font-size: 18px;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    -webkit-transform: translate(-25%, -44%);
+    -ms-transform: translate(-25%, -44%);
+    transform: translate(-25%, -44%);
+    text-align: center;
+  }
+
+  .text {
+    color: #b9c0c7;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 86%;
+    line-height: 1.8;
+  }
+
+  .link {
+    color: #0077cc;
+    font-size: 16px;
+    position: absolute;
+    top: 75%;
+    left: 57%;
+    -webkit-transform: translate(-75%, -57%);
+    -ms-transform: translate(-75%, -57%);
+    transform: translate(-75%, -57%);
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .tile-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1d2b37;
+    border-radius: 5px;
+  }
+  .tile-container:hover .tile-overlay {
+    opacity: 1;
+  }
+
+  .overlay-title {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    -webkit-transform: translate(-25%, -44%);
+    -ms-transform: translate(-25%, -44%);
+    transform: translate(-25%, -44%);
+    text-align: center;
+  }
+
+  .overlay-text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 86%;
+    line-height: 1.8;
+  }
+
+  .overlay-link {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 75%;
+    left: 57%;
+    -webkit-transform: translate(-75%, -57%);
+    -ms-transform: translate(-75%, -57%);
+    transform: translate(-75%, -57%);
+    text-align: center;
+    text-decoration: none;
+  }

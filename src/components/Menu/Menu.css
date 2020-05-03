@@ -1,0 +1,22 @@
+.menu{
+    position: absolute;
+    top: -15px;
+    width: 50%;
+    left: 20%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.link-list {
+    text-align: left;
+    margin-top: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

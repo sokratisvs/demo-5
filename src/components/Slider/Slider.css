@@ -1,0 +1,31 @@
+.slider{
+    color: #fff;
+    height: 350px;
+    position: relative;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide-content {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.dots {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}

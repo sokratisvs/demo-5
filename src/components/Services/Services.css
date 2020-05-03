@@ -1,0 +1,75 @@
+.services-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px 10px;
+}
+
+.services-header {
+    color: #2e99ef;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.services-subtitle {
+    color: #354363;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.progress-bar {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background-color: #f5f7fd;
+}
+
+.filler {
+    height: 100%;
+    border-radius: 50px;
+    transition: width .2s ease-in;
+}
+
+#filler-0 {
+    background-image: linear-gradient(to right, #008abe, #57fdee);
+}
+
+#filler-1 {
+    background-image: linear-gradient(to right, #2e77ac, #72bef5);
+}
+
+#filler-2 {
+    background-image: linear-gradient(to right, #ec8e68, #f9c1b5);
+}
+
+#filler-3 {
+    background-image: linear-gradient(to right, #7d54d9, #f8a9da);
+}
+
+.service-percentage {
+    font-size: 12px;
+}
